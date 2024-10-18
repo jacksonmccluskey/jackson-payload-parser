@@ -1,0 +1,26 @@
+{
+	"name": "jackson-payload-parser",
+	"version": "1.0.0",
+	"main": "jackson-payload-parser.js",
+	"scripts": {
+		"parse": "ts-node src/parser.ts",
+		"build": "tsc",
+		"start": "node dist/api.js",
+		"api": "npm run build && npm run start"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"body-parser": "^1.20.3",
+		"buffer": "^6.0.3",
+		"express": "^4.21.1",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.6.3"
+	},
+	"devDependencies": {
+		"@types/body-parser": "^1.19.5",
+		"@types/express": "^5.0.0"
+	}
+}
